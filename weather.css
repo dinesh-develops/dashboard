@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lexend+Peta&family=Permanent+Marker&display=swap');
+.weather-container{
+    width: 255px;
+    height: 280px;
+    border: 2px;
+    box-shadow: 0 0 10px 5px;
+    border-radius: 5%;
+}
+.weather-icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   
+}
+
+.temperature-data{
+    width:135px;
+    height: 65px;
+}
+.temperature{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 60px;
+    padding: inherit;
+    margin: auto;
+    padding-top: 0px;
+    padding-left: 60px;
+}
+#celcius-data{
+    padding-left: 145px;
+    margin-top: -35px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.loc{
+    margin: inherit;
+    padding: inherit;
+    padding-top: 10px;
+    margin-left: 45px;
+    font-family: 'Permanent Marker';
+    font-size: 20px;
+}
+.temperature-description{
+    padding: inherit;
+    margin: inherit;
+    font-family: 'Lexend Peta', sans-serif;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    font-size: 15px;
+    text-align: center;
+    font-size-adjust: inherit;
+}

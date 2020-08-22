@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Overpass:ital,wght@1,600&family=Zilla+Slab:wght@500&display=swap');
+.dict{
+    width: 545px;
+    height: 280px;
+    align-content: center;
+    justify-items: center;
+    padding-left: 100px;
+    margin-top: 0px;
+    padding-top: 0px;
+    overflow-y: scroll;
+    border: 2px;
+    box-shadow: 0 0 10px 5px;
+}
+#word{
+    border-radius: 6px;
+    width: 260px;
+    height: 30px;
+    border-color:black;
+    font-style: italic;
+    font-size: large;
+}
+#btn1{
+    margin-top: 0px;
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    border-color: black;
+    border-radius: 6px;
+}
+#audio{
+   padding-top: 10px;
+   padding-bottom: 0px;
+}
+.mean,.example{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: larger;
+    color: red;
+}
+#inputField{
+    font-size: 35px;
+    vertical-align: middle;
+    font-style: italic;
+}
+#meaning{
+    font-family: 'Overpass', sans-serif;
+    color: black;
+    
+}
+#ex{
+    font-family: 'Zilla Slab', serif;
+    color: black;
+    margin-bottom: 20px;
+}
+#text{
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    margin-left: 50px;
+}

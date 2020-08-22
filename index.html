@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh's Dashboard</title>
+    <link href="./index.css" rel="stylesheet">
+    <link href="./clock.css" rel="stylesheet">
+    <link href="./calendar/css/dycalendar.css" rel="stylesheet">
+    <link href="./weather.css" rel="stylesheet">
+    <link href="./title.css" rel="stylesheet">
+    <link href="./horoscope.css" rel="stylesheet">
+    <link href="./todo.css" rel="stylesheet">
+    <link href="./quote.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet">
+    <link href="./news.css" rel="stylesheet">
+    <link href="./dicitionary.css" rel="stylesheet">
+</head>
+<body>
+    <div class="title-element">
+        <div class='title'>
+            <p class="awesome">Welcome to Dinesh's Dashboard</p>
+          </div>
+    </div>
+    <div class="clock-content">
+        <div class="clock">
+            <div class="hour">
+                <div class="hr" id="hr"></div>
+            </div>
+            <div class="min">
+                <div class="mn" id="mn"></div>
+            </div>
+            <div class="sec">
+                <div class="sc" id="sc"></div>
+            </div>
+        </div>
+        <div id="digitalClock">
+            <div id="hour"></div>
+            <div id="minutes"></div>
+            <div id="seconds"></div>
+            <div id="mss"></div>
+            <div id="ampm"></div>
+        </div>
+    </div>
+    <div class="calendar-content">
+        <div id="calendar" class="dycalendar-container round-edge skin-black gradient">
+        </div>
+    </div>
+    <div class="weather-content">
+        <div class="weather-container">
+            <div class="loc">
+                <span><i class="fas fa-map-marker-alt"></i></span><span id="locationid">Zone</span>
+            </div>
+            <div class="weather-icon">
+                <img src="icons/unknown.png">
+            </div>
+            <div class="temperature-data">
+                <h2 class="temperature">34</h2>
+            </div>
+            <h4 id="celcius-data">C</h4>
+            <div class="temperature-description">It' Cold</div>
+        </div>
+    </div>
+    <div class="horoscope-element">
+        <div class="horo">
+            <h5 id="title">Your Horoscope!</h5>
+            <select name="signs" id="opt" style="width:130px; height: 30px;">
+                <option value="1">Aries</option>
+                <option value="2">Taurus</option>
+                <option value="3">Gemini</option>
+                <option value="4">Cancer</option>
+                <option value="5">Leo</option>
+                <option value="6">Virgo</option>
+                <option value="7">Libra</option>
+                <option value="8">Scorpio</option>
+                <option value="9">Sagittarius</option>
+                <option value="10">Capricorn</option>
+                <option value="11">Aquarius </option>
+                <option value="12">Pisces</option>
+        </select>
+        <select name="type" id="opt1" style="width:140px; height: 30px;">
+                <option>Today</option>
+                <option>Week</option>
+                <option>Month</option>
+                <option>Year</option>
+        </select>
+        <button class="button-success pure-button" id="btn" style="width: 100px; height: 30px;">Find!</button>
+        <a href="#" class="myButton" id="close">Close</a>
+        <section>
+            <h4 id="textpred">Select your sign and the type of prediction and click the Find Button!</h4>
+        </section>
+    </div>
+    <div class="to-do">
+        <div class="container">
+            <h2 id="name">To-Do App</h2>
+            <input id="inputField" type="text"><button id="addition">+</button>
+        </div>
+        <div class="container2">
+            <div class="To-Do" id="to-do-container">
+            </div>
+        </div>
+    </div>
+    <div class="motivate-container">
+        <div class="motivational">
+            <h3 id=tdymotivation>Todays's Motivation</h3>
+            <div class="content">
+                <span>
+                    <i class="fas fa-quote-left"></i>
+                </span>
+                <span class="quote">
+                    I am not a great programmer!
+                </span>
+                <span>
+                    <i class="fas fa-quote-right"></i>
+                </span>
+            </div>
+            <div class="btn1">
+                <a href="#"><button class="button" id="btn" onclick="clicked();">Motivate more!</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="news-content">
+        <h3 id="newstitle">Get your news!!</h3>
+        <div class="btn-group"  id="news" style="width:100%">
+            <button style="width:33.3%" onclick="tamil();">Tamil</button>
+            <button style="width:33.3%" onclick="english();">English</button>
+            <button style="width:33.3%" onclick="hindi();">Hindi</button>
+        </div>
+        <iframe width="645" height="315" id="youtube" src="https://www.youtube.com/embed/d9MUNRM1qoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="dictionary-content">
+        <div class="dict">
+            <h3 id="text">Dictionary App</h3>
+            <div class="dic">
+                <input type="text" id="word" placeholder="Enter your Word!">
+                <button id="btn1">Search</button>
+                <audio controls id="audio">
+                    <source i src="https://lex-audio.useremarkable.com/mp3/apple_us_1.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                <p></p>
+                <div class="mean">Meaning::::<span id="meaning">---------------</span></div>
+                <div class="example">Example::::<span id="ex">---------------</span></div>
+                <p></p>
+            </div>
+            
+        </div>
+    </div>
+<script type="text/javascript">
+    alert("This is site is designed for Laptops or Desktops and it will not work properly in Mobile Devices!");
+</script>
+<script src="./dictionary.js"></script>
+<script src="./news.js"></script>
+<script src="./quote.js"></script>              
+<script src="./todo.js"></script>
+<script src="./horoscope.js"></script>
+<script src="./weather.js"></script>
+<script src="./calendar/js/dycalendar.min.js"></script>
+<script src="./clock.js" type="text/javascript"></script>
+<script src="./calendar.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    overflow-x: hidden;
+    background-color: #F0F0F0;
+}
+.clock-content{
+    width: 250px;
+    height: 265px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.calendar-content{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.weather-content{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.horoscope-element{
+    padding-left: 1160px;
+    margin-top:-830px;
+}
+.motivate-container{
+    position: absolute;
+    left: 400px;
+    top: 75px;
+}
+.news-content{
+    position: absolute;
+    left: 400px;
+    top: 245px;
+}
+.dictionary-content{
+    position: absolute;
+    left: 400px;
+    top: 725px;
+    padding-bottom: 100px;
+}

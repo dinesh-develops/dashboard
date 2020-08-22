@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+.clock{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.clock::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: black;
+    z-index: 1000;
+    border-radius: 50%;
+}
+.hour,.min,.sec{
+    position: absolute;
+}
+.hour,.hr{
+    width: 100px;
+    height:110px;
+}
+.min,.mn{
+    width: 160px;
+    height: 195px;
+}
+.sec,.sc{
+    width: 200px;
+    height: 195px;  
+}
+.hr,.mn,.sc{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+.hr::before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    background: #FD2D00;
+}
+.mn::before{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100px;
+    background: #9653EA;
+}
+.sc::before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 110px;
+    background: #45CC1F;
+}
+#digitalClock{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    color: #0033FF;
+    font-size: 3em;
+    font-family: 'Bree Serif', serif;
+}

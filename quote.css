@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Orbitron:wght@800&display=swap');
+.box{
+    margin: 0px;
+    padding: 0px;
+}
+.motivational{
+    width: 550px;
+    height: 130px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    text-overflow: clip;
+    position: absolute;
+}
+.button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 385px;
+    cursor: pointer;
+    position: -webkit-sticky;
+    position: sticky;
+}
+#tdymotivation{
+    margin-top: 5px;
+    align-content: center;
+    justify-items: center;
+    margin-left: 30%;
+    font-family: 'Bree Serif', serif;
+    font-size: x-large;
+}
+.content{
+    margin-left: 40px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: larger;
+    text-overflow: ellipsis;
+}
+.quote{
+    width: 50px;
+    height: 75px;
+    font-size: large;
+}

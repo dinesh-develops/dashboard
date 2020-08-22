@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Sriracha&display=swap');
+.container{
+}
+.container2{
+    width: 260px;
+    height: 220px;
+    padding: 15px;
+    box-shadow: 10px 10px grey;
+    overflow-y:auto;
+}
+#inputField{
+    width: 250px;
+    height:40px ;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    margin-left: 20px;
+    border-radius: 30px;
+    
+
+}
+#addition{
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.To-Do{
+    padding: 10px;
+    font-size: 30px;
+    padding-right:40px ;
+    font-family: 'Architects Daughter', cursive;
+    
+}
+#name{
+    padding-top: 10px;
+    font-size: 25px;
+    padding-left: 110px;
+    font-family: 'Sriracha', cursive;
+}
