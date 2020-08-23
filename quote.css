@@ -36,7 +36,7 @@
     font-size: x-large;
 }
 .content{
-    margin-left: -6px;
+    margin-left: 0px;
     font-family: 'Orbitron', sans-serif;
     font-size: larger;
     text-overflow: ellipsis;
